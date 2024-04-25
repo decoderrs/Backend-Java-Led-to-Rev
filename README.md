@@ -58,6 +58,11 @@ This guide will walk you through the process of setting up a MongoDB database an
   - Open Postman, create new `GET` request with url `http://localhost:9080/products/all-products` and send the Request.
   - This request will return all the data we have just seeded into the database in response body.
 
+## Important Note:
+- The [static folder](#src/main/resources/static) contains the json data file (jsondata.json), which has initial data that can be seeded into the collection in Mongodb.
+- The [static folder](#src/main/resources/static) also contains collection of API requests, which has request body, parameters and path variables already preset in the requests and can  be send directly after the application has started running. This collection can be imported in PostMan, and the all request can be executed at the same to get response for all the endpoints.This is done to test the API endpoints of the application. 
+
+
 ## Data Models:
 ### Product
 | Attribute    | Data Type    | Description                                      |
