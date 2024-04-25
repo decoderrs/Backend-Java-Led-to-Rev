@@ -9,9 +9,9 @@ The application follows a client-server architecture where the server exposes RE
 ## Installation and Setup:
 1. Ensure you have Java JDK and MongoDB installed on your system.
 2. Clone the repository from GitHub: `git clone https://github.com/decoderrs/Backend-Java-Led-to-Rev.git`
-3. Navigate to the project directory and build the application: `./gradlew build`
+3. Navigate to the project directory and build the application: `gradlew build`
 4. Start MongoDB service.
-5. Run the application: `./gradlew bootRun`
+5. Run the application: `gradlew bootRun`
 
 ## Development Tools:
 - Spring-tool-suite-4-4.13.0 - For creating application and writing business logic.
