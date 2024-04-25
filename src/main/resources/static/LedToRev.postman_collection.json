@@ -1,0 +1,405 @@
+{
+	"info": {
+		"_postman_id": "39e82e7d-e220-4880-a02b-920cfa4884cd",
+		"name": "LedToRev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20047984"
+	},
+	"item": [
+		{
+			"name": "HelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9080/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "import-json-file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/mayur/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/product-app-apis/src/main/resources/static/jsondata.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/import-json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"import-json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-product-using-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9080/products/find-product/6627cadf4280060fab8741f5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"find-product",
+						"6627cadf4280060fab8741f5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter-product-using-all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": null,\r\n    \"categories\" :[\"Category B\",\"Category E\"],\r\n    \"attributes\" : [{\"size\":\"Medium\"},{\"color\":\"Black\"},{\"brand\":\"Brand W\"}]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"name\": \"Product 34\",\r\n    \"description\": \"Description of Product 34\",\r\n    \"price\": 349.99,\r\n    \"categories\": [\"Category F\", \"Category I\"],\r\n    \"attributes\": [\r\n      {\"size\": \"Small\"}, {\"color\": \"Blue\"}, {\"brand\": \"Brand X\"}\r\n    ],\r\n    \"availability\": {\"inStock\": true, \"quantity\": 80},\r\n    \"ratings\": [\r\n      {\"userId\": \"user100\", \"rating\": 4, \"comment\": \"Good quality\"},\r\n      {\"userId\": \"user101\", \"rating\": 5, \"comment\": \"Impressive\"},\r\n      {\"userId\": \"user102\", \"rating\": 4, \"comment\": \"Satisfied with purchase\"}\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/add-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"add-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-new-rating",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {\"userId\": \"user102\", \"rating\": 4, \"comment\": \"Satisfied with purchase\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/6627cadf4280060fab8741f6/add-ratings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"6627cadf4280060fab8741f6",
+						"add-ratings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-rates",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/6627cadf4280060fab8741f5/user2/update-rates?newRating=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"6627cadf4280060fab8741f5",
+						"user2",
+						"update-rates"
+					],
+					"query": [
+						{
+							"key": "newRating",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update-product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Product 33\",\r\n    \"description\": \"Description of Product 33\",\r\n    \"price\": 339.99,\r\n    \"categories\": [\"Category E\", \"Category H\"],\r\n    \"attributes\": [\r\n      {\"size\": \"Medium\", \"color\": \"Green\", \"brand\": \"Brand Z\"}\r\n    ],\r\n    \"availability\": {\"inStock\": false, \"quantity\": 0},\r\n    \"ratings\": [\r\n      {\"userId\": \"user97\", \"rating\": 3, \"comment\": \"Okay product\"},\r\n      {\"userId\": \"user98\", \"rating\": 2, \"comment\": \"Not as expected\"},\r\n      {\"userId\": \"user99\", \"rating\": 1, \"comment\": \"Disappointing\"}\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/update-product/66265762335b114104f4c111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"update-product",
+						"66265762335b114104f4c111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter-product-using-name",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Product 4\",\r\n    \"categories\" :null,\r\n    \"attributes\" : null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter-product-using-categories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": null,\r\n    \"categories\" : [\"Category B\",\"Category C\"],\r\n    \"attributes\" : null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/search?pageNumber=0&pageSize=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"search"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "0"
+						},
+						{
+							"key": "pageSize",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filer-product-using-attributes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": null,\r\n    \"categories\" :null,\r\n    \"attributes\" : [{\"size\":\"Large\"},{\"color\": \"Red\"}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/products/search?pageNumber0&pageSize=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"search"
+					],
+					"query": [
+						{
+							"key": "pageNumber0",
+							"value": null
+						},
+						{
+							"key": "pageSize",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paging-products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9080/products/all-products?pageNumber=0&pageSize=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"all-products"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "0"
+						},
+						{
+							"key": "pageSize",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete-product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9080/products/delete-product/6627cadf4280060fab874213",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"products",
+						"delete-product",
+						"6627cadf4280060fab874213"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,468 @@
+[
+  {
+    "name": "Product 1",
+    "description": "Description of Product 1",
+    "price": 19.99,
+    "categories": ["Category A", "Category B"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Red"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 100},
+    "ratings": [
+      {"userId": "user1", "rating": 4, "comment": "Good product"},
+      {"userId": "user2", "rating": 5, "comment": "Excellent"},
+      {"userId": "user3", "rating": 3, "comment": "Average"}
+    ]
+  },
+  {
+    "name": "Product 2",
+    "description": "Description of Product 2",
+    "price": 29.99,
+    "categories": ["Category B", "Category C"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Blue"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 50},
+    "ratings": [
+      {"userId": "user4", "rating": 5, "comment": "Very satisfied"},
+      {"userId": "user5", "rating": 4, "comment": "Good quality"},
+      {"userId": "user6", "rating": 4, "comment": "Nice product"}
+    ]
+  },
+	
+  {
+    "name": "Product 3",
+    "description": "Description of Product 3",
+    "price": 39.99,
+    "categories": ["Category A", "Category D"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user7", "rating": 3, "comment": "Not bad"},
+      {"userId": "user8", "rating": 2, "comment": "Could be better"},
+      {"userId": "user9", "rating": 1, "comment": "Disappointed"}
+    ]
+  },
+  {
+    "name": "Product 4",
+    "description": "Description of Product 4",
+    "price": 49.99,
+    "categories": ["Category B", "Category E"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Black"}, {"brand": "Brand W"}
+    ],
+    "availability": {"inStock": true, "quantity": 20},
+    "ratings": [
+      {"userId": "user10", "rating": 4, "comment": "Good value"},
+      {"userId": "user11", "rating": 5, "comment": "Highly recommended"},
+      {"userId": "user12", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+  {
+    "name": "Product 5",
+    "description": "Description of Product 5",
+    "price": 59.99,
+    "categories": ["Category C", "Category F"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Blue"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 30},
+    "ratings": [
+      {"userId": "user13", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user14", "rating": 4, "comment": "Great value"},
+      {"userId": "user15", "rating": 5, "comment": "Very satisfied"}
+    ]
+  },
+  {
+    "name": "Product 6",
+    "description": "Description of Product 6",
+    "price": 69.99,
+    "categories": ["Category D", "Category G"],
+    "attributes": [
+      {"size": "Small"}, {"color": "White"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user16", "rating": 3, "comment": "Okay product"},
+      {"userId": "user17", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user18", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 7",
+    "description": "Description of Product 7",
+    "price": 79.99,
+    "categories": ["Category E", "Category H"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Red"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 15},
+    "ratings": [
+      {"userId": "user19", "rating": 4, "comment": "Good quality"},
+      {"userId": "user20", "rating": 5, "comment": "Impressive"},
+      {"userId": "user21", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+  {
+    "name": "Product 8",
+    "description": "Description of Product 8",
+    "price": 89.99,
+    "categories": ["Category F", "Category I"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Black"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 25},
+    "ratings": [
+      {"userId": "user22", "rating": 5, "comment": "Fantastic product"},
+      {"userId": "user23", "rating": 4, "comment": "Great buy"},
+      {"userId": "user24", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 9",
+    "description": "Description of Product 9",
+    "price": 99.99,
+    "categories": ["Category G", "Category J"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user25", "rating": 3, "comment": "Okay product"},
+      {"userId": "user26", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user27", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 10",
+    "description": "Description of Product 10",
+    "price": 109.99,
+    "categories": ["Category H", "Category K"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 10},
+    "ratings": [
+      {"userId": "user28", "rating": 4, "comment": "Good quality"},
+      {"userId": "user29", "rating": 5, "comment": "Impressive"},
+      {"userId": "user30", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+  {
+    "name": "Product 11",
+    "description": "Description of Product 11",
+    "price": 119.99,
+    "categories": ["Category I", "Category L"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Red"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 40},
+    "ratings": [
+      {"userId": "user31", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user32", "rating": 4, "comment": "Great buy"},
+      {"userId": "user33", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 12",
+    "description": "Description of Product 12",
+    "price": 129.99,
+    "categories": ["Category J", "Category M"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user34", "rating": 3, "comment": "Okay product"},
+      {"userId": "user35", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user36", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 13",
+    "description": "Description of Product 13",
+    "price": 139.99,
+    "categories": ["Category K", "Category N"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"},{ "brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 5},
+    "ratings": [
+      {"userId": "user37", "rating": 4, "comment": "Good quality"},
+      {"userId": "user38", "rating": 5, "comment": "Impressive"},
+      {"userId": "user39", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+  {
+    "name": "Product 14",
+    "description": "Description of Product 14",
+    "price": 149.99,
+    "categories": ["Category L", "Category O"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Red"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 20},
+    "ratings": [
+      {"userId": "user40", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user41", "rating": 4, "comment": "Great buy"},
+      {"userId": "user42", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 15",
+    "description": "Description of Product 15",
+    "price": 159.99,
+    "categories": ["Category M", "Category P"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user43", "rating": 3, "comment": "Okay product"},
+      {"userId": "user44", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user45", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 16",
+    "description": "Description of Product 16",
+    "price": 169.99,
+    "categories": ["Category N", "Category Q"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"},{ "brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 15},
+    "ratings": [
+      {"userId": "user46", "rating": 4, "comment": "Good quality"},
+      {"userId": "user47", "rating": 5, "comment": "Impressive"},
+      {"userId": "user48", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+   {
+    "name": "Product 17",
+    "description": "Description of Product 17",
+    "price": 179.99,
+    "categories": ["Category O", "Category R"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Red"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 25},
+    "ratings": [
+      {"userId": "user49", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user50", "rating": 4, "comment": "Great buy"},
+      {"userId": "user51", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 18",
+    "description": "Description of Product 18",
+    "price": 189.99,
+    "categories": ["Category P", "Category S"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user52", "rating": 3, "comment": "Okay product"},
+      {"userId": "user53", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user54", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 19",
+    "description": "Description of Product 19",
+    "price": 199.99,
+    "categories": ["Category Q", "Category T"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 30},
+    "ratings": [
+      {"userId": "user55", "rating": 4, "comment": "Good quality"},
+      {"userId": "user56", "rating": 5, "comment": "Impressive"},
+      {"userId": "user57", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+  {
+    "name": "Product 20",
+    "description": "Description of Product 20",
+    "price": 209.99,
+    "categories": ["Category R", "Category U"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Red"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 40},
+    "ratings": [
+      {"userId": "user58", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user59", "rating": 4, "comment": "Great buy"},
+      {"userId": "user60", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 21",
+    "description": "Description of Product 21",
+    "price": 219.99,
+    "categories": ["Category S", "Category V"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user61", "rating": 3, "comment": "Okay product"},
+      {"userId": "user62", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user63", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 22",
+    "description": "Description of Product 22",
+    "price": 229.99,
+    "categories": ["Category T", "Category W"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 35},
+    "ratings": [
+      {"userId": "user64", "rating": 4, "comment": "Good quality"},
+      {"userId": "user65", "rating": 5, "comment": "Impressive"},
+      {"userId": "user66", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+   {
+    "name": "Product 23",
+    "description": "Description of Product 23",
+    "price": 239.99,
+    "categories": ["Category U", "Category X"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Red"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 50},
+    "ratings": [
+      {"userId": "user67", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user68", "rating": 4, "comment": "Great buy"},
+      {"userId": "user69", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 24",
+    "description": "Description of Product 24",
+    "price": 249.99,
+    "categories": ["Category V", "Category Y"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"},{ "brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user70", "rating": 3, "comment": "Okay product"},
+      {"userId": "user71", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user72", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 25",
+    "description": "Description of Product 25",
+    "price": 259.99,
+    "categories": ["Category W", "Category Z"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 45},
+    "ratings": [
+      {"userId": "user73", "rating": 4, "comment": "Good quality"},
+      {"userId": "user74", "rating": 5, "comment": "Impressive"},
+      {"userId": "user75", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+   {
+    "name": "Product 26",
+    "description": "Description of Product 26",
+    "price": 269.99,
+    "categories": ["Category X", "Category A"],
+    "attributes": [
+      {"size": "Large"},{ "color": "Red"},{ "brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 55},
+    "ratings": [
+      {"userId": "user76", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user77", "rating": 4, "comment": "Great buy"},
+      {"userId": "user78", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 27",
+    "description": "Description of Product 27",
+    "price": 279.99,
+    "categories": ["Category Y", "Category B"],
+    "attributes": [
+      {"size": "Medium"},{ "color": "Green"}, {"brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user79", "rating": 3, "comment": "Okay product"},
+      {"userId": "user80", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user81", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 28",
+    "description": "Description of Product 28",
+    "price": 289.99,
+    "categories": ["Category Z", "Category C"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 60},
+    "ratings": [
+      {"userId": "user82", "rating": 4, "comment": "Good quality"},
+      {"userId": "user83", "rating": 5, "comment": "Impressive"},
+      {"userId": "user84", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  },
+   {
+    "name": "Product 29",
+    "description": "Description of Product 29",
+    "price": 299.99,
+    "categories": ["Category A", "Category D"],
+    "attributes": [
+      {"size": "Large"}, {"color": "Red"}, {"brand": "Brand Y"}
+    ],
+    "availability": {"inStock": true, "quantity": 65},
+    "ratings": [
+      {"userId": "user85", "rating": 5, "comment": "Excellent product"},
+      {"userId": "user86", "rating": 4, "comment": "Great buy"},
+      {"userId": "user87", "rating": 5, "comment": "Highly recommended"}
+    ]
+  },
+  {
+    "name": "Product 30",
+    "description": "Description of Product 30",
+    "price": 309.99,
+    "categories": ["Category B", "Category E"],
+    "attributes": [
+      {"size": "Medium"}, {"color": "Green"},{ "brand": "Brand Z"}
+    ],
+    "availability": {"inStock": false, "quantity": 0},
+    "ratings": [
+      {"userId": "user88", "rating": 3, "comment": "Okay product"},
+      {"userId": "user89", "rating": 2, "comment": "Not as expected"},
+      {"userId": "user90", "rating": 1, "comment": "Disappointing"}
+    ]
+  },
+  {
+    "name": "Product 31",
+    "description": "Description of Product 31",
+    "price": 319.99,
+    "categories": ["Category C", "Category F"],
+    "attributes": [
+      {"size": "Small"}, {"color": "Blue"}, {"brand": "Brand X"}
+    ],
+    "availability": {"inStock": true, "quantity": 70},
+    "ratings": [
+      {"userId": "user91", "rating": 4, "comment": "Good quality"},
+      {"userId": "user92", "rating": 5, "comment": "Impressive"},
+      {"userId": "user93", "rating": 4, "comment": "Satisfied with purchase"}
+    ]
+  }
+]
